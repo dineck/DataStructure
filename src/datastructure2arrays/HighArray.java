@@ -54,4 +54,12 @@ class HighArray {
             System.out.print(a[j] + " ");
         System.out.println("");
     }
+    
+    public int removeMax() {
+        delete(a.length);
+        if (a.length>0)
+            return a.length;
+        else
+            return -1;
+    }
 }
