@@ -28,8 +28,8 @@ class Reverser {
         
         output="";
         while(!theStack.isEmpty()) {
-            char ch=theStack.pop();
-            output=output+ch;
+//            char ch=theStack.pop();
+//            output=output+ch;
         }
         return output;
     }

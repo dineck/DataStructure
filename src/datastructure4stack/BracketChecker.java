@@ -32,8 +32,8 @@ class BracketChecker {
                 case ']':
                 case ')':
                     if(!theStack.isEmpty()) {
-                        char chx=theStack.pop();
-                        if((ch=='}' && chx!='{') || (ch==']' && chx!='[') || (ch==')' && chx!='('))
+//                        char chx=theStack.pop();
+//                        if((ch=='}' && chx!='{') || (ch==']' && chx!='[') || (ch==')' && chx!='('))
                             System.out.println("Error: "+ch+" at "+j);
                     }
                     else
